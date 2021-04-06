@@ -1,0 +1,67 @@
+/*/*----------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-style: Arial;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: #efefef;
+}
+
+body {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+/*/*----------------------------------*/
+/* HEADER */
+/*----------------------------------*/
+
+.header {
+    background-color: #5538C8;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1.5em;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777;
+}
+
+nav a:hover,
+nav a:active {
+    color: #5538C8;
+}
+
+/*/*----------------------------------*/
+/* ABOUT */
+/*----------------------------------*/
+
+.about {
+    padding: 2em 0 0 0;
+}
+
+.about-head h1 {
+    color: #5538C8;
+    font-size: 4rem;
+    text-align: center;
+}

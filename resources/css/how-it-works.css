@@ -1,0 +1,170 @@
+/*/*----------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-style: Arial;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    background-color: #efefef;
+}
+
+body {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+/*/*----------------------------------*/
+/* HEAD */
+/*----------------------------------*/
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1.5em;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+}
+
+nav a:hover,
+nav a:active {
+    color: #5538C8;
+}
+
+/*/*----------------------------------*/
+/* HOW IT WORKS */
+/*----------------------------------*/
+
+.adjustments h1 {
+    font-size: 4rem;
+    color: #5538C8;
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 0;
+}
+
+/*/*----------------------------------*/
+/* BODY */
+/*----------------------------------*/
+
+.body {
+    margin: 0 5em;
+}
+
+.sections {
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.section1,
+.section2 {
+    width: 50%;
+}
+
+.subjects {
+    padding-bottom: 3em;
+}
+
+.subjects span {
+    color: #5538C8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.subjects p {
+    padding: 0 5em;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+.levels-of-teaching span {
+    color: #5538C8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.levels-of-teaching p {
+    padding: 0 5em;
+    font-size: 1.3rem;
+    line-height: 0.75em;
+}
+
+.tutoring-options {
+    padding-bottom: 3em;
+}
+
+.tutoring-options span {
+    color: #5538C8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.tutoring-options p {
+    padding: 0 5em;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+.online-group-sessions span {
+    color: #5538C8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.online-group-sessions p {
+    padding: 0 5em;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+}
+
+#amount {
+    color: #555;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.span-2-of-3 {
+    text-align: center;
+}
+
+#learn {
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 3em 0;
+}
+
+input[type=submit] {
+    padding: 1em 1.5em;
+    color: #fff;
+    border-radius: 5em;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit] {
+    background-color: #5538C8;
+    border: 1px solid #5538C8;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active  {
+    background-color: #7f7aeb;
+}

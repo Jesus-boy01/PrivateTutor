@@ -1,0 +1,394 @@
+@media (min-width: 1024px) and (max-width: 1200px) {
+    /*-- TESTIMONY --*/
+
+    .testimony-adj {
+        flex-direction: column;
+    }
+
+    .test-big-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .test-big-text h3 {
+        margin: 0;
+        padding: 1.5em 0 0 0;
+    }
+
+    #test {
+        width: 100%;
+    }
+
+    /*-- CONTACT ME --*/
+
+    .contact-form {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .first-name-row {
+        margin: 0;
+    }
+
+    .email-row {
+        margin: 0;
+    }
+
+    #phone-number {
+        margin: 0 0 0 2em;
+    }
+
+    #submit2 {
+        margin-left: 19em;
+    }
+
+    .level-of-study {
+        width: 100%;
+        text-align: center;
+    }
+
+    #junior {
+        margin: 1.2em 0.2em 1.2em 0;
+    }
+
+    #jh {
+        margin-right: 1em;
+    }
+
+    #high {
+        margin: 0 0.2em 1.2em 0.3em;
+    }
+
+    #hs {
+        margin-right: 1em;
+    }
+
+    #college {
+        margin: 0 0.2em 1.2em 0.3em;
+    }
+
+    #submit3 {
+        margin-left: 28em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /*-- BACKGROUND-1 --*/
+
+    nav ul {
+        display: inline-block;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    .background-1 h1 {
+        padding: 1.5em 1em 0 1em;
+        text-align: center;
+    }
+
+    .contact-row {
+        margin-left: 12em;
+    }
+
+    /*-- TESTIMONY --*/
+    
+    .testimony-adj {
+        flex-direction: column;
+    }
+    
+    .testimony h3 {
+        margin: 0;
+        padding: 1.5em 1.5em 0 1.5em;
+        text-align: center;
+    }
+    
+    .test-big-text {
+        width: 100%;
+    }
+    
+    .test-small-text {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    /*-- CONTACT ME --*/
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    .top-row,
+    .bottom-row {
+        margin-left: 0;
+    }
+
+    .first-name-row {
+        margin-right: 2em;
+    }
+
+    .first-name-row,
+    .email-row {
+        margin-left: 0;
+    }
+
+    .col-span-2-of-3 {
+        margin-left: 0;
+    }
+
+    #submit2 {
+        margin-left: 19em;
+    }
+    
+    .level-of-study {
+        width: 100%;
+        text-align: center;
+    }
+
+    .level-of-study span {
+        font-size: 2rem;
+    }
+
+    #high {
+        margin-left: 0.7em;
+    }
+
+    #college {
+        margin-left: 3em;
+    }
+
+    #submit3 {
+        margin-left: 19em;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    /*-- BACKGROUND-1 --*/
+
+    nav ul {
+        margin-top: 1em;
+    }
+
+    nav a {
+        margin-left: 0.5em;
+    }
+
+    nav a:last-child {
+        margin-left: 0.1em;
+    }
+
+    .background-1 h1 {
+        padding: 1em 0 0 0;
+        margin-left: 0.3em;
+        margin-right: 0.5em;
+    }
+
+    .contact-row {
+        margin-left: 6em;
+    }
+
+    .col.span-2-of-3 {
+        flex-direction: row;
+    }
+
+    /*-- WORKSHEETS --*/
+
+    .worksheet-text p {
+        font-size: 1.8rem;
+    }
+
+    .col {
+        flex-direction: column;
+        font-size: 1.7rem;
+    }
+
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5 {
+        width: 100%;
+    }
+
+    /*-- TESTIMONY --*/
+
+    .testimony-adj {
+        flex-direction: column;
+    }
+
+    .test-big-text,
+    .test-small-text {
+        width: 100%;
+    }
+
+    .test-big-text h3 {
+        text-align: center;
+        padding: 0;
+    }
+
+    #test {
+        text-align: center;
+    }
+
+    /*-- CONTACT ME --*/
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .level-of-study {
+        width: 100%;
+    }
+
+    .contact-info {
+        padding-left: 0;
+    }
+    
+    .first-name-row,
+    .last-name-row {
+        margin-left: 0;
+    }
+    
+    #first-name,
+    #last-name {
+        width: 100%;
+    }
+
+    .email-row,
+    .phone-number-row {
+        margin-left: 0;
+    }
+
+    #email,
+    #phone-number {
+        width: 100%;
+    }
+
+    #submit2 {
+        margin: -45px 0 0 10em; 
+
+    }
+    
+    .level-of-study {
+        text-align: center;
+    }
+
+    #junior,
+    #high,
+    #college {
+        margin-left: 0;
+    }
+
+    #submit3 {
+        margin: 3em 0 0 10em;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 539px) {
+    /*-- BACKGROUND-1 --*/
+
+    nav ul {
+        padding-top: 1.8em;
+    }
+
+    nav a {
+        margin-left: 0.2em;
+    }
+
+    nav a:last-child {
+        margin-left: 0.1em;
+    }
+
+    .background-1 h1 {
+        font-size: 3.5rem;
+        padding: 1em 0 0 0;
+        margin-left: 0.3em;
+        margin-right: 0.5em;
+    }
+
+    #short {
+        font-size: 2.5rem;
+    }
+
+    .contact-row {
+        margin-left: 3.5em;
+    }
+
+    /*-- WORKSHEETS --*/
+
+    .worksheet-text h2 {
+        font-size: 3.2rem;
+    }
+
+    .worksheet-text p {
+        font-size: 1.7rem;
+    }
+
+    .col {
+        flex-direction: column;
+        font-size: 2rem;
+    }
+
+    .col1,
+    .col2,
+    .col3,
+    .col4,
+    .col5 {
+        width: 100%;
+    }
+
+    /*-- TESTIMONY --*/
+    
+    .testimony-adj {
+        flex-direction: column;
+    }
+
+    .test-big-text,
+    .test-small-text {
+        width: 100%;
+    }
+
+    .test-big-text h3 {
+        text-align: center;
+        padding: 0;
+    }
+
+    .test-small-text {
+        text-align: center;
+    }
+
+    /*--- CONTACT ME ---*/
+
+    .contact-text h4 {
+        font-size: 3rem;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        padding: 0;
+    }
+
+    .level-of-study span {
+        font-size: 1.8rem;
+    }
+
+    .contact-info,
+    .level-of-study {
+        width: 100%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 399px) {
+
+}
+
+@media (min-width: 350px) and (max-width: 374px) {
+
+}
