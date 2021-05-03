@@ -1,3 +1,4 @@
+/*--- BODY ---*/
 @media (min-width: 768px) and (max-width: 1023px) {
     .sections {
         flex-direction: column;
@@ -9,4 +10,10 @@
         /* margin: 0; */
         /* padding: 0; */
     }
+
+    .levels-of-teaching {
+        padding-bottom: 3em;
+    }
+
 }
+
