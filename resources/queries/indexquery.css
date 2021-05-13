@@ -1,4 +1,4 @@
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1600px) {
     /*-- TESTIMONY --*/
 
     .testimony-adj {
@@ -289,6 +289,11 @@
 }
 
 @media (min-width: 400px) and (max-width: 539px) {
+    /*---- BODY ----*/
+    body {
+        margin: 0 2em;
+    }
+
     /*-- BACKGROUND-1 --*/
 
     nav ul {
@@ -370,9 +375,32 @@
     .contact-form {
         flex-direction: column;
     }
-
+    
     .contact-info {
         padding: 0;
+    }
+
+    .first-name-row,
+    .email-row {
+        margin: 0;
+        width: auto;
+    }
+
+    #firstname {
+        margin-left: -20px;
+    }
+
+    #email {
+        margin-left: -13px;
+    }
+
+    #phone,
+    #lastname {
+        display: none;
+    }
+
+    #submit2 {
+        margin-left: 1em;
     }
 
     .level-of-study span {
