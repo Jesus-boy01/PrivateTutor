@@ -23,7 +23,7 @@
 
     .contact-form {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
 
     .first-name-row {
@@ -65,10 +65,6 @@
 
     #college {
         margin: 0 0.2em 1.2em 0.3em;
-    }
-
-    #submit3 {
-        margin-left: 28em;
     }
 }
 

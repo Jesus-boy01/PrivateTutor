@@ -211,11 +211,12 @@ input[type=submit]:active  {
 
 .contact-form {
     display: flex;
+    align-items: center;
 }
 
 .contact-info {
     width: 60%;
-    padding-left: 5em;
+    padding-left: 0;
 }
 
 .level-of-study {
@@ -300,7 +301,6 @@ input[type=submit]:active  {
     cursor: pointer;
     font-size: 0.75rem;
     margin-top: 1.5em;
-    margin-left: 4em;
 }
 
 /*/*----------------------------------*/
