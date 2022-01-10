@@ -157,6 +157,11 @@ input[type=submit]:active  {
     text-align: center;
 }
 
+#submit_added {
+    margin-left: 20em;
+    margin-bottom: 20em;
+}
+
 /*/*----------------------------------*/
 /* TESTIMONY */
 /*----------------------------------*/
