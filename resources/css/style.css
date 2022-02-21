@@ -60,6 +60,7 @@ nav a:active {
 
 #home {
     color: #999;
+    cursor: default;
 }
 
 /*/*----------------------------------*/
@@ -158,8 +159,10 @@ input[type=submit]:active  {
 }
 
 #submit_added {
-    margin-left: 20em;
-    margin-bottom: 20em;
+    font-size: 0.8rem;
+    margin-left: 45em;
+    margin-bottom: 15em;
+    cursor: pointer;
 }
 
 /*/*----------------------------------*/
