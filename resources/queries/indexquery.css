@@ -26,22 +26,6 @@
         align-items: center;
     }
 
-    .first-name-row {
-        margin: 0;
-    }
-
-    .email-row {
-        margin: 0;
-    }
-
-    #phone-number {
-        margin: 0 0 0 2em;
-    }
-
-    #submit2 {
-        margin-left: 19em;
-    }
-
     .level-of-study {
         width: 100%;
         text-align: center;
@@ -116,28 +100,6 @@
     .contact-info {
         padding: 0;
     }
-
-    .top-row,
-    .bottom-row {
-        margin-left: 0;
-    }
-
-    .first-name-row {
-        margin-right: 2em;
-    }
-
-    .first-name-row,
-    .email-row {
-        margin-left: 0;
-    }
-
-    .col-span-2-of-3 {
-        margin-left: 0;
-    }
-
-    #submit2 {
-        margin-left: 19em;
-    }
     
     .level-of-study {
         width: 100%;
@@ -154,10 +116,6 @@
 
     #college {
         margin-left: 3em;
-    }
-
-    #submit3 {
-        margin-left: 19em;
     }
 }
 
@@ -240,33 +198,14 @@
         width: 100%;
     }
 
-    .contact-info {
-        padding-left: 0;
+    .row {
+        flex-direction: column;
     }
-    
-    .first-name-row,
-    .last-name-row {
-        margin-left: 0;
-    }
-    
-    #first-name,
-    #last-name {
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
         width: 100%;
-    }
-
-    .email-row,
-    .phone-number-row {
-        margin-left: 0;
-    }
-
-    #email,
-    #phone-number {
-        width: 100%;
-    }
-
-    #submit2 {
-        margin: -45px 0 0 10em; 
-
     }
     
     .level-of-study {
@@ -279,9 +218,9 @@
         margin-left: 0;
     }
 
-    #submit3 {
+    /* #submit3 {
         margin: 3em 0 0 10em;
-    }
+    } */
 }
 
 @media (min-width: 400px) and (max-width: 539px) {
@@ -372,27 +311,14 @@
         flex-direction: column;
     }
     
-    .contact-info {
-        padding: 0;
+    .row {
+        flex-direction: column;
     }
 
-    .first-name-row,
-    .email-row {
-        margin: 0;
-        width: auto;
-    }
-
-    #firstname {
-        margin-left: -20px;
-    }
-
-    #email {
-        margin-left: -13px;
-    }
-
-    #phone,
-    #lastname {
-        display: none;
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
     }
 
     #submit2 {
@@ -410,9 +336,25 @@
 }
 
 @media (min-width: 375px) and (max-width: 399px) {
+    .row {
+        flex-direction: column;
+    }
 
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 374px) {
+    .row {
+        flex-direction: column;
+    }
 
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+    }
 }

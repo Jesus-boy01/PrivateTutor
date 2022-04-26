@@ -120,6 +120,11 @@ input[type=submit]:active  {
 /* WORKSHEETS */
 /*----------------------------------*/
 
+.worksheets {
+    height: 600px;
+    margin-bottom: 10em;
+}
+
 .worksheet-text h2 {
     color: #5538C8;
     font-size: 4rem;
@@ -158,10 +163,13 @@ input[type=submit]:active  {
     text-align: center;
 }
 
+.submit-row {
+    display: flex;
+    justify-content: center;
+}
+
 #submit_added {
     font-size: 0.8rem;
-    margin-left: 45em;
-    margin-bottom: 15em;
     cursor: pointer;
 }
 
@@ -217,56 +225,30 @@ input[type=submit]:active  {
     color: #555;
 }
 
-.contact-form {
+.row {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
-.contact-info {
-    width: 60%;
-    padding-left: 0;
+.firstname,
+.lastname {
+    margin: 0 2em 3em 2em;
+}
+
+.email,
+.phone {
+    margin: 0 2em 5em 2em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px 10px;
+    font-size: 0.75rem;
 }
 
 .level-of-study {
     width: 30%;
-}
-
-.top-row {
-    display: flex;
-    margin-right: 0.75em;
-}
-
-.first-name-row {
-    margin: 0 0 0 2em;
-}
-
-.col-span-2-of-3 {
-    margin: 0 0 4em 2em;
-}
-
-#first-name {
-    font-size: 1.2rem;
-}
-
-#last-name {
-    font-size: 1.2rem;
-}
-
-.bottom-row {
-    display: flex;
-    margin-right: 1em;
-}
-
-.email-row {
-    margin: 0 2em;
-}
-
-#email {
-    font-size: 1.2rem;
-}
-
-#phone-number {
-    font-size: 1.2rem;
 }
 
 .level-of-study span {
@@ -298,17 +280,20 @@ input[type=submit]:active  {
     font-size: 1.5rem;
 }
 
+.submit-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
 #submit2 {
-    cursor: pointer;
-    font-size: 0.75rem;
-    margin-top: -27px;
-    margin-left: 5.5em;
+    font-size: 00.75rem;
 }
 
 #submit3 {
     cursor: pointer;
     font-size: 0.75rem;
-    margin-top: 1.5em;
+    margin: 1.5em 0;
 }
 
 /*/*----------------------------------*/
