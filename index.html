@@ -27,11 +27,10 @@
 		<section class="background-1">
 			<h1>ToSha's Online<br> Tutoring<br><span id="short">Together all the way to success</span></h1>
 			<div class="contact-row">
-				<div class="col.span-2-of-3">
+				<div class="contact-submit">
 					<input type="submit" value="Contact Me" id="submit">
 				</div>
 			</div>
-
 		</section>
 		<section class="worksheets">
 			<div class="worksheet-text">
@@ -50,7 +49,7 @@
 						<option value="government">Government</option>  
 						<option value="crs">CRS</option> 
 					</select><br>
-					<select id="teachername">
+					<select class="teachername">
 						<option value="Tolu" id="teach-name1">Tolu</option>
 						<option value="Sharon" id="teach-name2">Sharon</option>
 					</select>
@@ -67,7 +66,7 @@
 						<option value="government">Government</option>  
 						<option value="crs">CRS</option>
 					</select><br>
-					<select id="teachername">
+					<select class="teachername">
 						<option value="Tolu" id="teach-name1" selected>Tolu</option>
 						<option value="Sharon" id="teach-name2">Sharon</option>
 					</select>
@@ -84,7 +83,7 @@
 						<option value="government">Government</option>  
 						<option value="crs">CRS</option>  
 					</select><br>
-					<select id="teachername">
+					<select class="teachername">
 						<option value="Tolu" id="teach-name1">Tolu</option>
 						<option value="Sharon" id="teach-name2" selected>Sharon</option>
 					</select>
@@ -101,7 +100,7 @@
 						<option value="government">Government</option>  
 						<option value="crs">CRS</option>
 					</select><br>
-					<select id="teachername">
+					<select class="teachername">
 						<option value="Tolu" id="teach-name1" selected>Tolu</option>
 						<option value="Sharon" id="teach-name2">Sharon</option>
 					</select>
@@ -118,7 +117,7 @@
 						<option value="government" selected>Government</option>  
 						<option value="crs">CRS</option>  
 					</select><br>
-					<select id="teachername">
+					<select class="teachername">
 						<option value="Tolu" id="teach-name1">Tolu</option>
 						<option value="Sharon" id="teach-name2" selected>Sharon</option>
 					</select>
@@ -147,25 +146,25 @@
 			</div>
 			<div class="contact-form">
 				<div class="contact-info">
-					<form method="post" action="#">
+					<form method="post" action="how-it-works.html">
 						<div class="row">
 							<div class="firstname">
 								<label for="firstname">First Name</label><br>
-								<input type="text" name="firstname" id="firstname">
+								<input type="text" name="firstname" id="firstname" required>
 							</div>
 							<div class="lastname">
 								<label for="lastname">Last Name</label><br>
-								<input type="text" name="lastname" id="lastname">
+								<input type="text" name="lastname" id="lastname" required>
 							</div>
 						</div>
 						<div class="row">
 							<div class="email">
 								<label for="email">Email</label><br>
-								<input type="email" name="email" id="email">
+								<input type="email" name="email" id="email" required>
 							</div>
 							<div class="phone">
 								<label for="phone">Phone Number</label><br>
-								<input type="tel" name="phone" id="phone">
+								<input type="tel" name="phone" id="phone" pattern="[0-9]{3}[0-9]{4}[0-9]{4}" required>
 							</div>
 						</div>
 						<div class="submit-button">
@@ -174,21 +173,23 @@
 					</form>
 				</div>
 				<div class="level-of-study">
-					<span>Current Level of Study</span><br>
+					<p>Current Level of Study</p><br>
+					<div class="level-contents">
 						<input type="radio" id="junior" name="school" value="junior">
 						<label for="junior high" id="jh">Junior High</label><br>
 						<input type="radio" id="high" name="school" value="high">
 						<label for="high school" id="hs">High School</label><br>
 						<input type="radio" id="college" name="school" value="college">
 						<label for="college applications" id="ca">College Applications</label>
-					<div class="submit-row">
-						<input type="submit" name="submit" value="Submit" id="submit3">
 					</div>
+				</div>
+				<div class="submit-row">
+					<input type="submit" name="submit" value="Submit" id="submit3">
 				</div>
 			</div>
 		</section>
 		<footer>
-			<p>&#169; 2021 by ToSha Group of Tutorials</p> 
+			<p>&#169; 2021 by ToSha Tutorials</p> 
 		</footer>
 	</div>
 </body>

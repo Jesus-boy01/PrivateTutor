@@ -67,7 +67,8 @@
     }
 
     .contact-row {
-        margin-left: 12em;
+        padding-left: 0;
+        justify-content: center;
     }
 
     /*-- TESTIMONY --*/
@@ -141,14 +142,15 @@
     }
 
     .contact-row {
-        margin-left: 6em;
-    }
-
-    .col.span-2-of-3 {
-        flex-direction: row;
+        padding-left: 0;
+        justify-content: center;
     }
 
     /*-- WORKSHEETS --*/
+
+    .worksheet {
+        margin-bottom: 3em;
+    }
 
     .worksheet-text p {
         font-size: 1.8rem;
@@ -255,7 +257,8 @@
     }
 
     .contact-row {
-        margin-left: 3.5em;
+        padding-left: 0;
+        justify-content: center;
     }
 
     /*-- WORKSHEETS --*/
@@ -336,6 +339,13 @@
 }
 
 @media (min-width: 375px) and (max-width: 399px) {
+
+    .background-1 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -348,6 +358,13 @@
 }
 
 @media (min-width: 350px) and (max-width: 374px) {
+
+    .background-1 {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    
     .row {
         flex-direction: column;
     }

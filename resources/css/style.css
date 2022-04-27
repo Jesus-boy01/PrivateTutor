@@ -20,8 +20,7 @@
     }
 
     body {
-        margin-left: 3em;
-        margin-right: 3em;
+        margin: 0 3em;
     }
 
 /*/*----------------------------------*/
@@ -68,9 +67,11 @@ nav a:active {
 /*----------------------------------*/
 
 .background-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/online1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/online1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-attachment: fixed;
-    height: auto;
 }
 
 .background-1 h1 {
@@ -84,8 +85,10 @@ nav a:active {
 }
 
 .contact-row {
-    padding-bottom: 5em;
-    margin-left: 10em;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 5em 10em;
+    /* margin-left: 10em; */
 }
 
 #submit {
@@ -93,14 +96,11 @@ nav a:active {
     font-size: 1rem;
 }
 
-input[type=submit] {
+input[type="submit"] {
     padding: 1em 1.5em;
     color: #fff;
     border-radius: 5em;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-}
-
-input[type=submit] {
     background-color: #5538C8;
     border: 1px solid #5538C8;
 }
@@ -139,7 +139,7 @@ input[type=submit]:active  {
 .col {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     font-size: 1.2rem;
 }
 
@@ -151,7 +151,7 @@ input[type=submit]:active  {
     font-size: 1rem;
     width: 7em;
     margin: 1em 0;
-    padding: 0.2em 0;
+    padding: 0.3em 0.2em;
 }
 
 .col1,
@@ -161,6 +161,11 @@ input[type=submit]:active  {
 .col5 {
     width: 20%;
     text-align: center;
+}
+
+.teachername {
+    padding: 3px;
+    font-size: 0.9rem;
 }
 
 .submit-row {
@@ -247,12 +252,13 @@ input[type="tel"] {
     font-size: 0.75rem;
 }
 
-.level-of-study {
-    width: 30%;
+.level-of-study p {
+    font-size: 2rem;
+    text-align: center;
 }
 
-.level-of-study span {
-    font-size: 2rem;
+.level-contents {
+    text-align: center;
 }
 
 #junior {
